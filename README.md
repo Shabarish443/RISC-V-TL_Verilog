@@ -1,6 +1,6 @@
 # RISC-V-TL_Verilog
 # Contents
-- [Introduction to RISC_V Basic Key words](#Introduction-to-RISC_V-Basic-Key-words )
+- [Introduction to RISC-V Basic Key words](#Introduction-to-RISC-V-Basic-Key-words )
   - [Apps to Hardware]
   - [Lab work for RISC-V software tool Chain]
   - [Numbersystem]
@@ -55,5 +55,4 @@
 
 
 # Introduction to RISC_V Basic Key words
-OpenLANE is a completely automated RTL to GDSII flow which embeds in it different opensource tools, namely, OpenROAD, Yosys, ABC, Magic etc., apart from many custom methodology scripts for design exploration and optimization. Openlane is built around Skywater 130nm process node and is capable of performing full ASIC implementation steps from RTL all the way down to GDSII. 
-The flow-chart below gives a better picture of openlane flow as a whole
+
