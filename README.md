@@ -22,9 +22,9 @@
 - [Calculator](#calculator)
     - [Combinational Calculator](#combinational-calculator)
     - [Sequential Calculator](#Sequential-Calculator)
-    - [Counter and Calculator in Pipeline](Counter-and-Calculator-in-Pipeline)
-    - [Cycle calculator]
-    - [Cycle Calculator with Validity]
+    - [Counter and Calculator in Pipeline](#Counter-and-Calculator-in-Pipeline)
+    - [2-Cycle calculator](#2-Cycle-calculator)
+    - [2-Cycle Calculator with Validity](2-Cycle-Calculator-with-Validity)
     - [Calculator with Single-Value Memory]
 - [RISC-V]   
   - [RISC-V Block Diagram]
@@ -75,6 +75,12 @@ We will keep a count on number of calculations done in it  in a single stage pip
 
 ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/Cnt%20and%20Calc.JPG)
 
+# 2-Cycle calculator
+Now we will run calculator in two stages 
+1) To know the operation to be performed.
+2) To do the selected operation.
+So one the input(taken from the output of calculator should be given as input after two cycles and while doing 1st operation we will clear the output using a #valid signal- we can get this from the counter in the previous step (we should make it as single bit counter).)
 
+![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/CycleCalc.JPG)
 
-
+# 2-Cycle Calculator with Validity
