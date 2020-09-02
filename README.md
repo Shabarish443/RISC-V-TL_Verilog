@@ -55,18 +55,18 @@
 - [Testbench]
 
 # Introduction to RISC-V Basic Key words
-  - ISA - Instruction Set Architecture (it is basically the language of computer)
-  - ABI - Applicatoin Binary Interface (Also called System call interface, with which  program can directly acess the resources of Processor RISC-V here).
+  - ISA - Instruction Set Architecture(it is basically the language of computer)
+  - ABI - Applicatoin Binary Interface(Also called System call interface, with which  program can directly acess the resources of Processor RISC-V here).
 # Apps to Hardware
   Application Software ----> System software ----> Hardware
   With any on Application software like Email, Browser the programs (according to the action took) are run in the back ground by the system software. System Software includes OS, Compiler, Assembler. OS takes care of I/O operations, Allocate memory and some low level system functions. Compiler converts the invoked C, C++, java programs (by the OS with the action of User in the Application Software)to a set of instructions (.exe file) and then these instructuions are converted to binary format by the assembler And these binary stream is run or applied to the hardware that it performs the alloted task to such pattern.
 # Types of Instructions
-  ● Pseudo Instructions
-  ● Base integer Instructions RV64I
-  ● Multiply extension RV64M
-  ● Single and Double precission floating point extension RV64F & RV64D.
-  ● Application Binary Interface
-  ● Memory Allocation and Stack pointer
+  1) Pseudo Instructions
+  2) Base integer Instructions RV64I
+  3) Multiply extension RV64M
+  4) Single and Double precission floating point extension RV64F & RV64D.
+  5) Application Binary Interface
+  6) Memory Allocation and Stack pointer
 
 # Lab work for RISC-V software tool Chain
   
@@ -103,7 +103,7 @@ calculation .So we will be taking one of the input of the calculator as the outp
 1) To know the operation to be performed.
 2) To do the selected operation.
 
-So one the input(taken from the output of calculator) should be given as input after two cycles and while doing 1st operation we will clear the output using a # valid signal- we can get this from the counter in the previous step (we should make it as single bit counter).
+So one the input(taken from the output of calculator) should be given as input after two cycles and while doing 1st operation we will clear the output using a valid signal- we can get this from the counter in the previous step (we should make it as single bit counter).
 
 ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/CycleCalc.JPG)
 
@@ -114,7 +114,7 @@ So one the input(taken from the output of calculator) should be given as input a
   ● Cleaner design
   ● Better error checking
   ● Automated clock gating
-We can provide this validity using # when condition that only ona valid signal both operation will be done.
+We can provide this validity using when condition that only ona valid signal both operation will be done.
 
 ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/CycleCalcwithvalidity.JPG)
 
