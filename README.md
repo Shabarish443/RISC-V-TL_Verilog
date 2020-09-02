@@ -1,11 +1,12 @@
 # RISC-V-TL_Verilog
 # Contents
 - [Introduction to RISC-V Basic Key words](#Introduction-to-RISC-V-Basic-Key-words )
-  - [Apps to Hardware]
-  - [Lab work for RISC-V software tool Chain]
-  - [Numbersystem]
-- [Application Binary Interface]
-  - [Introductoin to Application Binary Interface]
+  - [Apps to Hardware](#Apps-to-Hardware)
+  - [Types of Instructions](#Types-of-Instructions)
+  - [Lab work for RISC-V software tool Chain](#Lab-work-for-RISC-V-software-tool-Chain)
+  - [Number system](#Number-system)
+- [Application Binary Interface](#Application-Binary-Interface)
+  - [Introductoin to Application Binary Interface](#Introductoin-to-Application-Binary-Interface)
   - [Memory Allocation for Double Words]
 - [Lab work using ABI function calls]
   - [Alhorithm to sum 1 to N using ASM]
@@ -53,30 +54,52 @@
   - [Jumps]
 - [Testbench]
 
-# Introduction to RISC_V Basic Key words
+# Introduction to RISC-V Basic Key words
+  - ISA - Instruction Set Architecture (it is basically the language of computer)
+  - ABI - Applicatoin Binary Interface (Also called System call interface, with which  program can directly acess the resources of Processor RISC-V here).
+# Apps to Hardware
+  Application Software ----> System software ----> Hardware
+  With any on Application software like Email, Browser the programs (according to the action took) are run in the back ground by the system software. System Software includes OS, Compiler, Assembler. OS takes care of I/O operations, Allocate memory and some low level system functions. Compiler converts the invoked C, C++, java programs (by the OS with the action of User in the Application Software)to a set of instructions (.exe file) and then these instructuions are converted to binary format by the assembler And these binary stream is run or applied to the hardware that it performs the alloted task to such pattern.
+# Types of Instructions
+  ● Pseudo Instructions
+  ● Base integer Instructions RV64I
+  ● Multiply extension RV64M
+  ● Single and Double precission floating point extension RV64F & RV64D.
+  ● Application Binary Interface
+  ● Memory Allocation and Stack pointer
+
+# Lab work for RISC-V software tool Chain
+  
+# Number system
+ 
+# Application Binary Interface
+  # Introductoin to Application Binary Interface
+  
+  ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/ABI.JPG)
+  # Number system
 
 
 # Calculator
-Calculator is the basic project that any programer who knows how to use arithmetics in a programing Language. A basic calculator should be able to perform +,-,*,/. 
+  Calculator is the basic project that any programer who knows how to use arithmetics in a programing Language. A basic calculator should be able to perform +,-,*,/. 
 
 # Combinational Calculator
-This circuit implements a basic calculator that can perform + , - , * , / on two inputs(val1 and val2) with a two bit width selsect line(sel).
+  This circuit implements a basic calculator that can perform + , - , * , / on two inputs(val1 and val2) with a two bit width selsect line(sel).
 
 ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/Calculator.JPG)
 
 # Sequential Calculator
-Sequential logic is sequenced by a clock signal and must be able to return to a known state on reset. A real calculator remembers the last result, and uses it for the next
+  Sequential logic is sequenced by a clock signal and must be able to return to a known state on reset. A real calculator remembers the last result, and uses it for the next
 calculation .So we will be taking one of the input of the calculator as the output of previous calculation and also introduce a reset that can clear the output.
 
 ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/SeqCalculator.JPG)
 
 # Counter and Calculator in Pipeline
-We will keep a count on number of calculations done in it  in a single stage pipeline and other use can be known further.
+  We will keep a count on number of calculations done in it  in a single stage pipeline and other use can be known further.
 
 ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/Cnt%20and%20Calc.JPG)
 
 # 2-Cycle calculator
-Now we will run calculator in two stages 
+  Now we will run calculator in two stages 
 1) To know the operation to be performed.
 2) To do the selected operation.
 
@@ -86,18 +109,18 @@ So one the input(taken from the output of calculator) should be given as input a
 
 # 2-Cycle Calculator with Validity
   # validity
-  Validity Provides
-● Easier debug
-● Cleaner design
-● Better error checking
-● Automated clock gating
+    Validity Provides
+  ● Easier debug
+  ● Cleaner design
+  ● Better error checking
+  ● Automated clock gating
 We can provide this validity using # when condition that only ona valid signal both operation will be done.
 
 ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/CycleCalcwithvalidity.JPG)
 
 # Calculator with Single-Value Memory
 
-Calculators support “mem” and “recall”, to remember and recall a value . We extend the select line to 3 bits for these operation and we will be using the 3rd bit for selecting recall and mem operation.
+  Calculators support “mem” and “recall”, to remember and recall a value . We extend the select line to 3 bits for these operation and we will be using the 3rd bit for selecting recall and mem operation.
 
 ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/Calcwithsinglemem.JPG)
 
