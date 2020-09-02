@@ -24,8 +24,8 @@
     - [Sequential Calculator](#Sequential-Calculator)
     - [Counter and Calculator in Pipeline](#Counter-and-Calculator-in-Pipeline)
     - [2-Cycle calculator](#2-Cycle-calculator)
-    - [2-Cycle Calculator with Validity](2-Cycle-Calculator-with-Validity)
-    - [Calculator with Single-Value Memory]
+    - [2-Cycle Calculator with Validity](#2-Cycle-Calculator-with-Validity)
+    - [Calculator with Single-Value Memory](#Calculator-with-Single-Value-Memory)
 - [RISC-V]   
   - [RISC-V Block Diagram]
 - [Simple RISC-V subset]
@@ -80,9 +80,24 @@ Now we will run calculator in two stages
 1) To know the operation to be performed.
 2) To do the selected operation.
 
-So one the input(taken from the output of calculator) should be given as input after two cycles and while doing 1st operation we will clear the output using a #valid signal- we can get this from the counter in the previous step (we should make it as single bit counter).
+So one the input(taken from the output of calculator) should be given as input after two cycles and while doing 1st operation we will clear the output using a # valid signal- we can get this from the counter in the previous step (we should make it as single bit counter).
 
 ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/CycleCalc.JPG)
 
 # 2-Cycle Calculator with Validity
-skldhbkclbdlbr
+  # validity
+  Validity Provides
+● Easier debug
+● Cleaner design
+● Better error checking
+● Automated clock gating
+We can provide this validity using # when condition that only ona valid signal both operation will be done.
+
+![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/CycleCalcwithvalidity.JPG)
+
+# Calculator with Single-Value Memory
+
+Calculators support “mem” and “recall”, to remember and recall a value . We extend the select line to 3 bits for these operation and we will be using the 3rd bit for selecting recall and mem operation.
+
+![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/Calcwithsinglemem.JPG)
+
