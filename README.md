@@ -21,8 +21,8 @@
   - [Counter]
 - [Calculator](#calculator)
     - [Combinational Calculator](#combinational-calculator)
-    - [Sequential Calculator]
-    - [Counter and Calculator in Pipeline]
+    - [Sequential Calculator](#Sequential-Calculator)
+    - [Counter and Calculator in Pipeline](Counter-and-Calculator-in-Pipeline)
     - [Cycle calculator]
     - [Cycle Calculator with Validity]
     - [Calculator with Single-Value Memory]
@@ -60,9 +60,21 @@
 Calculator is the basic project that any programer who knows how to use arithmetics in a programing Language. A basic calculator should be able to perform +,-,*,/. 
 
 # Combinational Calculator
-This circuit implements a basic calculator that can perform + , - , * , / on two inputs(val1 and val2) with a two bit width selsect line(sel)
+This circuit implements a basic calculator that can perform + , - , * , / on two inputs(val1 and val2) with a two bit width selsect line(sel).
+
 ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/Calculator.JPG)
+
 # Sequential Calculator
 Sequential logic is sequenced by a clock signal and must be able to return to a known state on reset. A real calculator remembers the last result, and uses it for the next
 calculation .So we will be taking one of the input of the calculator as the output of previous calculation and also introduce a reset that can clear the output.
+
 ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/SeqCalculator.JPG)
+
+# Counter and Calculator in Pipeline
+We will keep a count on number of calculations done in it  in a single stage pipeline and other use can be known further.
+
+![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/Cnt%20and%20Calc.JPG)
+
+
+
+
