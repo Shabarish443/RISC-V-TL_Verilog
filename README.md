@@ -79,8 +79,10 @@ We will keep a count on number of calculations done in it  in a single stage pip
 Now we will run calculator in two stages 
 1) To know the operation to be performed.
 2) To do the selected operation.
-So one the input(taken from the output of calculator should be given as input after two cycles and while doing 1st operation we will clear the output using a #valid signal- we can get this from the counter in the previous step (we should make it as single bit counter).)
+
+So one the input(taken from the output of calculator) should be given as input after two cycles and while doing 1st operation we will clear the output using a #valid signal- we can get this from the counter in the previous step (we should make it as single bit counter).
 
 ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/CycleCalc.JPG)
 
 # 2-Cycle Calculator with Validity
+skldhbkclbdlbr
