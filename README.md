@@ -55,3 +55,7 @@
 
 # Introduction to RISC_V Basic Key words
 
+
+# Calculator
+Calculator is the basic project that any programer who knows how to use arithmatics in a programing Language. This circuit implements a basic calculator that can perform + , - , * ,/ on two inputs  with a two bit width selsect line
+![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/Calculator.JPG)
