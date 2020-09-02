@@ -19,8 +19,8 @@
   - [Chaining Ternary Operator]
   - [Sequesntial logic]
   - [Counter]
-- [Calculator]
-    - [Combinational Calculator]
+- [Calculator](#calculator)
+    - [Combinational Calculator](#combinational-calculator)
     - [Sequential Calculator]
     - [Counter and Calculator in Pipeline]
     - [Cycle calculator]
@@ -57,5 +57,8 @@
 
 
 # Calculator
-Calculator is the basic project that any programer who knows how to use arithmatics in a programing Language. This circuit implements a basic calculator that can perform + , - , * ,/ on two inputs  with a two bit width selsect line
+Calculator is the basic project that any programer who knows how to use arithmatics in a programing Language. 
+
+# Combinational Calculator
+This circuit implements a basic calculator that can perform + , - , * ,/ on two inputs(val1 and val2) with a two bit width selsect line(sel)
 ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/Calculator.JPG)
