@@ -69,6 +69,7 @@
   6) Memory Allocation and Stack pointer
 
 # Lab work for RISC-V software tool Chain
+  We start the labwork by writing a simple C program to compure the sum from 1 to n compile and run it with the help of riscv cpu and view the assmebly level code walkthrough registers with the help of spike debug.
   
 # Number system
  
