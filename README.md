@@ -8,7 +8,7 @@
 - [Application Binary Interface](#Application-Binary-Interface)
   - [Introductoin to Application Binary Interface](#Introductoin-to-Application-Binary-Interface)
   - [Memory Allocation for Double Words](#Memory-Allocation-for-Double-Words) 
-- [Digital logic with TL-Verilog in Makerchip IDE](#Digital-logic with TL-Verilog in Makerchip-IDE)
+- [Digital logic with TL-Verilog in Makerchip IDE](#Digital-logic-with TL-Verilog in Makerchip-IDE)
   - [Boolean Operators](#Boolean-Operators)
   - [Makerchip Platform](#Makerchip-Platform)
 - [Basic Programs]
