@@ -8,14 +8,13 @@
 - [Application Binary Interface](#Application-Binary-Interface)
   - [Introductoin to Application Binary Interface](#Introductoin-to-Application-Binary-Interface)
   - [Memory Allocation for Double Words](#Memory-Allocation-for-Double-Words) 
-- [Digital logic with TL-Verilog in Makerchip IDE](#Digital-logic-with TL-Verilog in Makerchip-IDE)
+- [Digital logic with TL-Verilog in Makerchip IDE](#Digital-logic-with-TL-Verilog-in-Makerchip-IDE)
   - [Boolean Operators](#Boolean-Operators)
   - [Makerchip Platform](#Makerchip-Platform)
-- [Basic Programs]
-  - [MUX program]
-  - [Chaining Ternary Operator]
-  - [Sequential logic]
-  - [Counter]
+- [Basic Programs](#Basic-Programs)
+  - [MUX program] (#MUX-program)
+  - [Sequential logic](#Sequential-logic)
+  - [Counter](#Counter)
 - [Calculator](#calculator)
     - [Combinational Calculator](#combinational-calculator)
     - [Sequential Calculator](#Sequential-Calculator)
@@ -85,6 +84,14 @@
   ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/boolean%20operators.JPG)
   # Makerchip Platform
   Go to makerchip.com  and launch new Makerchip IDE. THeir firstly try with the examples in the tutorial Compile the code in the editor check the DIAGRAM analy se and verify the waveform. We can split the panes and move the tabs over their for a comfortable layout Click on zoomin to view the waveform clearly.
+# Basic Programs
+  # MUX program
+  ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/Mux.png)
+  # Sequential logic
+  Taking fibanocci series as example to exaplain sequesntial logic.
+  ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/fibanocci.png)
+  # Counter
+  ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/Counter.png)
 # Calculator
   Calculator is the basic project that any programer who knows how to use arithmetics in a programing Language. A basic calculator should be able to perform +,-,*,/. 
 
