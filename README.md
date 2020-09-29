@@ -8,7 +8,7 @@
 - [Application Binary Interface](#Application-Binary-Interface)
   - [Introductoin to Application Binary Interface](#Introductoin-to-Application-Binary-Interface)
   - [Memory Allocation for Double Words](#Memory-Allocation-for-Double-Words) 
-- [Digital logic with TL-Verilog in Makerchip IDE](#Digital logic with TL-Verilog in Makerchip-IDE)
+- [Digital logic with TL-Verilog in Makerchip IDE](#Digital-logic with TL-Verilog in Makerchip-IDE)
   - [Boolean Operators](#Boolean-Operators)
   - [Makerchip Platform](#Makerchip-Platform)
 - [Basic Programs]
@@ -84,9 +84,7 @@
   # Boolean Operators
   ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/boolean%20operators.JPG)
   # Makerchip Platform
-    Go to makerchip.com and launch new Makerchip IDE. THeir firstly try with the examples in the tutorial Compile the code in the editor check the DIAGRAM analy se and verify the waveform. We can split the panes and move the tabs over their for a comfortable layout Click on zoomin to view the waveform clearly.
-
-
+  Go to makerchip.com  and launch new Makerchip IDE. THeir firstly try with the examples in the tutorial Compile the code in the editor check the DIAGRAM analy se and verify the waveform. We can split the panes and move the tabs over their for a comfortable layout Click on zoomin to view the waveform clearly.
 # Calculator
   Calculator is the basic project that any programer who knows how to use arithmetics in a programing Language. A basic calculator should be able to perform +,-,*,/. 
 
