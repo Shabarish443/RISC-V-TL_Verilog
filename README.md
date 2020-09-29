@@ -7,10 +7,7 @@
   - [Number system](#Number-system)
 - [Application Binary Interface](#Application-Binary-Interface)
   - [Introductoin to Application Binary Interface](#Introductoin-to-Application-Binary-Interface)
-  - [Memory Allocation for Double Words]
-- [Lab work using ABI function calls]
-  - [Alhorithm to sum 1 to N using ASM]
-  - [Simulate C program with Function call]
+  - [Memory Allocation for Double Words](#Memory-Allocation-for-Double-Words)
 - [Basic Verification flow using iverilog]  
 - [Digital logic with TL-Verilog in Makerchip IDE]
   - [Boolean Operators]
@@ -70,14 +67,20 @@
 
 # Lab work for RISC-V software tool Chain
   We start the labwork by writing a simple C program to compure the sum from 1 to n compile and run it with the help of riscv cpu and view the assmebly level code walkthrough registers with the help of spike debug.
-  
+  ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/sum1ton.JPG)
+  ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/objfile.JPG)
+  ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/assmeblycodeinput.JPG)
+  ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/assemblyprogram.JPG)
+  ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/spikedebug.JPG)
 # Number system
- 
+  The number system used is binary and for signed numbers 2's complement numbersystem is followed
 # Application Binary Interface
   # Introductoin to Application Binary Interface
   
   ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/ABI.JPG)
-  # Number system
+  # Memory Allocation for Double Words
+  Their are two types of memory allocation for words they are little endian and Big endian. Little endian means low significant byte is stored in low address and the subsequnectly significant byte is stored in the consecutively big adress and in Big endian it takes as reverse Most signifacnt byte takes low address and and low significant takes higher address.Little endian addressing cann be clearly explained by the following image.
+  ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/littleendian.JPG)
 
 
 # Calculator
