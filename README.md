@@ -12,7 +12,7 @@
   - [Boolean Operators](#Boolean-Operators)
   - [Makerchip Platform](#Makerchip-Platform)
 - [Basic Programs](#Basic-Programs)
-  - [MUX program] (#MUX-program)
+  - [MUX program](#MUX-program)
   - [Sequential logic](#Sequential-logic)
   - [Counter](#Counter)
 - [Calculator](#calculator)
