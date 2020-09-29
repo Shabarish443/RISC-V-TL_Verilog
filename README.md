@@ -7,15 +7,14 @@
   - [Number system](#Number-system)
 - [Application Binary Interface](#Application-Binary-Interface)
   - [Introductoin to Application Binary Interface](#Introductoin-to-Application-Binary-Interface)
-  - [Memory Allocation for Double Words](#Memory-Allocation-for-Double-Words)
-- [Basic Verification flow using iverilog]  
-- [Digital logic with TL-Verilog in Makerchip IDE]
-  - [Boolean Operators]
-  - [Makerchip Platform]
+  - [Memory Allocation for Double Words](#Memory-Allocation-for-Double-Words) 
+- [Digital logic with TL-Verilog in Makerchip IDE](#Digital logic with TL-Verilog in Makerchip-IDE)
+  - [Boolean Operators](#Boolean-Operators)
+  - [Makerchip Platform](#Makerchip-Platform)
 - [Basic Programs]
   - [MUX program]
   - [Chaining Ternary Operator]
-  - [Sequesntial logic]
+  - [Sequential logic]
   - [Counter]
 - [Calculator](#calculator)
     - [Combinational Calculator](#combinational-calculator)
@@ -24,8 +23,8 @@
     - [2-Cycle calculator](#2-Cycle-calculator)
     - [2-Cycle Calculator with Validity](#2-Cycle-Calculator-with-Validity)
     - [Calculator with Single-Value Memory](#Calculator-with-Single-Value-Memory)
-- [RISC-V]   
-  - [RISC-V Block Diagram]
+- [RISC-V](#RISC-V)
+  - [RISC-V Block Diagram](#RISC-V-Block-Diagram)
 - [Simple RISC-V subset]
   - [Next PC]
   - [Fetch]
@@ -81,6 +80,11 @@
   # Memory Allocation for Double Words
   Their are two types of memory allocation for words they are little endian and Big endian. Little endian means low significant byte is stored in low address and the subsequnectly significant byte is stored in the consecutively big adress and in Big endian it takes as reverse Most signifacnt byte takes low address and and low significant takes higher address.Little endian addressing cann be clearly explained by the following image.
   ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/littleendian.JPG)
+# Digital logic with TL-Verilog in Makerchip IDE 
+  # Boolean Operators
+  ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/boolean%20operators.JPG)
+  # Makerchip Platform
+    Go to makerchip.com and launch new Makerchip IDE. THeir firstly try with the examples in the tutorial Compile the code in the editor check the DIAGRAM analy se and verify the waveform. We can split the panes and move the tabs over their for a comfortable layout Click on zoomin to view the waveform clearly.
 
 
 # Calculator
@@ -127,4 +131,9 @@ We can provide this validity using when condition that only ona valid signal bot
   Calculators support “mem” and “recall”, to remember and recall a value . We extend the select line to 3 bits for these operation and we will be using the 3rd bit for selecting recall and mem operation.
 
 ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/Calcwithsinglemem.JPG)
+
+# RISC-V
+  # RISC-V Block Diagram
+  ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/blockdiagram.JPG)
+  
 
