@@ -74,7 +74,7 @@
   The number system used is binary and for signed numbers 2's complement numbersystem is followed
 # Application Binary Interface
   # Introductoin to Application Binary Interface
-  
+  An Application Binary Interface is a set of rules enforced by the operating system on a specific architecture. So, Linker converts relocatable machine code to absolute machine code via ABI interface specific to the architecture of machine.So, it is system call interface used by the application program to access the registers specific to architecture. Overhere the architecture is RISC-V, so to access 32 registers of RISC-V 
   ![alt text](https://github.com/Shabarish443/RISC-V-TL_Verilog/blob/master/images/ABI.JPG)
   # Memory Allocation for Double Words
   Their are two types of memory allocation for words they are little endian and Big endian. Little endian means low significant byte is stored in low address and the subsequnectly significant byte is stored in the consecutively big adress and in Big endian it takes as reverse Most signifacnt byte takes low address and and low significant takes higher address.Little endian addressing cann be clearly explained by the following image.
